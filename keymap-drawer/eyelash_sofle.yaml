@@ -80,11 +80,11 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - RGB SPI
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - RGB SPI
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - RGB BRD
   - (
@@ -97,23 +97,23 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
+  - {t: '`', s: '~'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
   - RGB EFF
   - RGB EFR
-  - RGB SPI
+  - PG UP
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - PG DN
-  - KP EQUAL
+  - {t: '=', s: +}
   - KP PLUS
   - KP DIVIDE
   - '|'
