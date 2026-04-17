@@ -115,7 +115,7 @@ layers:
   - PG DN
   - {t: '=', s: +}
   - KP PLUS
-  - KP DIVIDE
+  - {t: \, s: '|'}
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
