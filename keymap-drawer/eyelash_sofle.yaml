@@ -26,7 +26,7 @@ layers:
   - C
   - R
   - L
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - A
   - O
@@ -122,12 +122,12 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - HOME
   - $$mdi:backspace-reverse-outline$$
-  - layer1
-  - {t: '$$mdi:keyboard-return$$', type: held}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', type: held alternate}
+  - {t: layer1, type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: layer1, type: held alternate}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - layer1
   - END
   - $$mdi:apple-keyboard-command$$
   layer2:
