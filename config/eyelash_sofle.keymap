@@ -84,11 +84,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5           &mmv MOVE_UP     &kp F6           &kp F7     &kp F8         &kp F9         &kp F10       &kp F11
-&trans      &rgb_ug RGB_SPI  &mkp LCLK       &mkp MCLK        &mkp RCLK        &rgb_ug RGB_SPI  &mmv MOVE_DOWN   &rgb_ug RGB_BRD  &kp LPAR   &kp RPAR       &kp LBKT       &kp RBKT      &kp F12
-&trans      &kp TILDE        &trans          &trans           &trans           &kp GRAVE        &mmv MOVE_LEFT   &rgb_ug RGB_BRI  &kp LEFT   &kp DOWN       &kp UP         &kp RIGHT     &kp MINUS
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PG_UP        &mmv MOVE_RIGHT  &kp PG_DN        &kp EQUAL  &kp KP_PLUS    &kp KP_DIVIDE  &kp PIPE      &trans
-&kp C_MUTE  &kp LEFT_ALT     &kp HOME        &kp DELETE       &kp ENTER        &mo 1            &kp ENTER        &mo 1            &kp SPACE  &kp BACKSPACE  &kp END        &kp LEFT_GUI
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5           &mmv MOVE_UP     &kp F6           &kp F7     &kp F8         &kp F9    &kp F10       &kp F11
+&trans      &rgb_ug RGB_SPI  &mkp LCLK       &mkp MCLK        &mkp RCLK        &rgb_ug RGB_SPI  &mmv MOVE_DOWN   &rgb_ug RGB_BRD  &kp LPAR   &kp RPAR       &kp LBKT  &kp RBKT      &kp F12
+&trans      &kp TILDE        &trans          &trans           &trans           &kp GRAVE        &mmv MOVE_LEFT   &rgb_ug RGB_BRI  &kp LEFT   &kp DOWN       &kp UP    &kp RIGHT     &kp MINUS
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &kp PG_UP        &mmv MOVE_RIGHT  &kp PG_DN        &kp EQUAL  &kp KP_PLUS    &kp BSLH  &kp PIPE      &trans
+&kp C_MUTE  &kp LEFT_ALT     &kp HOME        &kp DELETE       &kp ENTER        &mo 1            &kp ENTER        &mo 1            &kp SPACE  &kp BACKSPACE  &kp END   &kp LEFT_GUI
             >;
 
             display-name = "layer1";
